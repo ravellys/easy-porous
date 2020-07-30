@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div style={{ background: "#282a36" }} >
+      
+      <section style={{ background: "#282a36" }}>
       <Menu />
 
       <BannerMain
@@ -16,6 +18,8 @@ function App() {
         url={dadosIniciais.categorias[0].videos[0].url} 
         videoDescription={""}
       />
+      </section>
+    
       <Carousel 
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}

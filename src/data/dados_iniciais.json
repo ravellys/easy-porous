@@ -3,7 +3,7 @@
     {
       "titulo": "Videos",
       "link": "https://www.youtube.com/channel/UCYFcvVOj-caStftzOojvsrg?view_as=subscriber",
-      "cor": "#6BD1FF",
+      "cor": "#8be9fd",
       "link_extra": {
         "text": "Lessons on the youtube",
         "url": "https://www.youtube.com/channel/UCYFcvVOj-caStftzOojvsrg?view_as=subscriber"
@@ -34,7 +34,7 @@
     },
     {
       "titulo": "Posts",
-      "cor": "#00C86F",
+      "cor": "##ffb86c",
       "link_extra": {
         "text": "Posts about the Porous Media ",
         "url": ""

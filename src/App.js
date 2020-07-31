@@ -18,8 +18,8 @@ function App() {
         url={dadosIniciais.categorias[0].videos[0].url} 
         videoDescription={""}
       />
-      </section>
-    
+      </section >
+      <section style={{ background: "#44475a" }} >
       <Carousel 
         ignoreFirstVideo
         category={dadosIniciais.categorias[0]}
@@ -31,6 +31,8 @@ function App() {
       <Carousel 
         category={dadosIniciais.categorias[2]}
       />
+      </section>
+
       <Footer />
 
  

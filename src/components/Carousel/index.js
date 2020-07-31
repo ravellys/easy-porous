@@ -25,7 +25,7 @@ function VideoCardGroup({
         </>
       )}
       <VideoCardList>
-        {videos.map((video, index) => {
+        {videos.map((video, index, image) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
@@ -36,6 +36,7 @@ function VideoCardGroup({
                 videoTitle={video.titulo}
                 videoURL={video.url}
                 categoryColor={categoryColor}
+                image_url={video.image}
               />
             </li>
           );

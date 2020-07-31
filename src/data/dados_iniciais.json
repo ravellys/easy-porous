@@ -11,30 +11,35 @@
       "videos": [
         {
           "titulo": "Curso de ImageJ - Parte 1",
-          "url": "https://www.youtube.com/watch?v=aaK-H1EHmA4&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=1"
+          "url": "https://www.youtube.com/watch?v=aaK-H1EHmA4&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=1",
+          "image": "from_youtube"
         },
         {
           "titulo": "Curso de ImageJ - Parte 2",
-          "url": "https://www.youtube.com/watch?v=x_VCTJW8pXc&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=6"
+          "url": "https://www.youtube.com/watch?v=x_VCTJW8pXc&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=6",
+          "image": "from_youtube"
         },
         {
           "titulo": "Curso de ImageJ - Parte 3",
-          "url": "https://www.youtube.com/watch?v=VuCdPCWJxWw&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=9"
+          "url": "https://www.youtube.com/watch?v=VuCdPCWJxWw&list=PL_seZA3jrQ_Amp2qkfnnV5H4MEMB0nfOx&index=9",
+          "image": "from_youtube"
         },
         {
           "titulo": "Curso de ImageJ - Desafios 1",
-          "url": "https://www.youtube.com/watch?v=FkET7tf6LmY&list=PL_seZA3jrQ_DOKJBwERFAYYaWNOdWPrre&index=1"
+          "url": "https://www.youtube.com/watch?v=FkET7tf6LmY&list=PL_seZA3jrQ_DOKJBwERFAYYaWNOdWPrre&index=1",
+          "image": "from_youtube"
         },
         {
           "titulo": "Curso de ImageJ - Desafios 2",
-          "url": "https://www.youtube.com/watch?v=awyDDKg-ewc&list=PL_seZA3jrQ_DOKJBwERFAYYaWNOdWPrre&index=5"
+          "url": "https://www.youtube.com/watch?v=awyDDKg-ewc&list=PL_seZA3jrQ_DOKJBwERFAYYaWNOdWPrre&index=5",
+          "image": "from_youtube"
         }
                
       ]
     },
     {
       "titulo": "Posts",
-      "cor": "##ffb86c",
+      "cor": "#ffb86c",
       "link_extra": {
         "text": "Posts about the Porous Media ",
         "url": ""
@@ -42,23 +47,13 @@
       "videos": [
         {
           "titulo": "Soil Moisture Estimator",
-          "url": "https://ravellys.github.io/SME-ML/"
-        },
-        {
-          "titulo": "Soil Moisture Estimator",
-          "url": "https://ravellys.github.io/SME-ML/"
-        },
-        {
-          "titulo": "Soil Moisture Estimator",
-          "url": "https://ravellys.github.io/SME-ML/"
+          "url": "https://ravellys.github.io/SME-ML/",
+          "image": "https://ravellys.github.io/SME-ML/th1.png"
         },
         {
           "titulo": "Global Sensitivity Analyses in Hydrus1D",
-          "url": "https://ravellys.github.io/GSA-Hydrus1D/"
-        },
-        {
-          "titulo": "Soil Moisture Estimator",
-          "url": "https://ravellys.github.io/SME-ML/"
+          "url": "https://ravellys.github.io/GSA-Hydrus1D/",
+          "image": "https://ravellys.github.io/GSA-Hydrus1D/vol_GSA.png"
         }
       ]
     },
@@ -67,28 +62,14 @@
       "cor": "#9cd33b",
       "link_extra": {
         "text": "Digital Images Processing",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "url": "https://www.alura.com.br/formacao-data-science",
+        "image": "from_youtube"
       },
       "videos": [
         {
           "titulo": "Lista 3 - DIP",
-          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb"
-        },
-        {
-          "titulo": "Lista 3 - DIP",
-          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb"
-        },
-        {
-          "titulo": "Lista 3 - DIP",
-          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb"
-        },
-        {
-          "titulo": "Lista 3 - DIP",
-          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb"
-        },
-        {
-          "titulo": "Lista 3 - DIP",
-          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb"
+          "url": "https://github.com/ravellys/PID/blob/master/Lista3.ipynb",
+          "image": "https://github.com/ravellys/PID/blob/master/Lista3_image.png?raw=true"
         }
       ]
     }

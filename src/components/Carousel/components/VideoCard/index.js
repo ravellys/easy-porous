@@ -10,11 +10,13 @@ function getYouTubeId(youtubeURL) {
 }
 
 
-function VideoCard({ videoTitle, videoURL, categoryColor }) {
-  const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+function VideoCard({ videoTitle, videoURL, categoryColor, image_url }) {
+  if (image_url === "from_youtube" ){
+    image_url = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+  }
   return (
     <VideoCardContainer
-      url={image}
+      url={image_url}
       href={videoURL}
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
